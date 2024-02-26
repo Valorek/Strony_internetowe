@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    display: flex;
+    width: 1000px;
+    height:400px;
+    background-color: grey;
+    flex-direction: column;
+    border: 3px solid black;
+   
+}
+.second{
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    background-color: grey;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid black;
+}
+.third{
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    background-color: grey;
+    border: 3px solid black;
+}
+.fourth{
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    background-color: grey;
+    border: 3px solid black;
+    flex-direction: row-reverse;
+
+}
+.jeden{
+    align-self: flex-end;
+
+}
+.dwa{
+   align-self: flex-start;
+}
+.trzy{
+   align-self: center;
+}
+.cztery{
+   align-self: flex-end;
+}
+body{
+    background-color: rgb(74, 74, 74);
+}
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: gold;
+    border: 3px solid black;
+    font-size: 50px;
+}
+.one{
+    background-color: gold;
+    
+}
+.two{
+    background-color: blueviolet;
+}
+.three{
+    background-color: aquamarine;
+}
+.four{
+    background-color: darkorange;
+}
+.one1{
+    flex-grow: 2;
+}
+.one2{
+    flex-grow: 3;
+}
